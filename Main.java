@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main{
-    final static String text = "Fsdfsdfsvv, vvvbnnnf sdd asddd";
+    final static String text = "Fsdfsdfsvv, vvvbnnnf sdd asddd sdd ssddd asddd";
 
     public static void main(String[] args) {
         Function<String, List<String>> dictionary = text -> Stream.of(text.split(" "))
